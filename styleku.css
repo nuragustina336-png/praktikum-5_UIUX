@@ -1,0 +1,90 @@
+/* 🌿 Gaya umum halaman */
+body {
+  background-color: #f5f5dc; /* krem lembut */
+  font-family: "Verdana", sans-serif;
+  color: #333;
+  margin: 20px;
+}
+
+/* 🥑 Judul utama */
+h1 {
+  background-color: #ffcc66; /* kuning lembut */
+  color: #003366; /* biru tua */
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* ✍️ Paragraf */
+p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* 🔗 Link */
+a {
+  color: blue;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 🖼️ Gambar umum */
+img {
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 300px;
+}
+
+/* 🏞️ Gambar sejajar (bagian koleksi foto alpukat) */
+.foto {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+}
+
+.foto img {
+  width: 23%;
+  border-radius: 8px;
+}
+
+/* 💬 Bagian promo / penawaran */
+.promo {
+  text-align: center;
+  background-color: #ffeb99;
+  border: 2px solid #ffcc00;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* 💸 Bagian COD info */
+.cod {
+  width: fit-content;
+  margin: 15px auto;
+  background-color: aqua;
+  border: 1px dotted red;
+  text-align: center;
+  color: blue;
+  padding: 10px;
+}
+
+/* 🔘 Tombol pesan */
+#tombol {
+  display: block;
+  margin: 20px auto;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#tombol:hover {
+  background-color: #218838;
+}
